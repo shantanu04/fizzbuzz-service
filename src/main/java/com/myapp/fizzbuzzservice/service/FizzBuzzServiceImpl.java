@@ -10,11 +10,15 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+/**
+ * @author shantanuk
+ * <p>
+ * Implementation of service {@link FizzBuzzService}
+ */
 @Service
 public class FizzBuzzServiceImpl implements FizzBuzzService {
 
     private static final String SEPARATOR = "_";
-
     @Autowired
     private ParameterRepository parameterRepository;
 

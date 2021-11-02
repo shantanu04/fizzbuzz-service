@@ -18,6 +18,11 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+/**
+ * @author shantanuk
+ * <p>
+ * Test class for {@link FizzBuzzServiceImpl}
+ */
 @ExtendWith(MockitoExtension.class)
 class FizzBuzzServiceImplTest {
 

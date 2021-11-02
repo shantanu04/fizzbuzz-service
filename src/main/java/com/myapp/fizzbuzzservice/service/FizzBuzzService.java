@@ -2,6 +2,11 @@ package com.myapp.fizzbuzzservice.service;
 
 import com.myapp.fizzbuzzservice.exception.FizzBuzzServiceException;
 
+/**
+ * @author shantanuk
+ * <p>
+ * Service interface providing functional methods
+ */
 public interface FizzBuzzService {
 
     /**

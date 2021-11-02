@@ -10,8 +10,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author shantanuk
+ * <p>
+ * Rest Controller exposing FizzBuzz Service rest endpoints
+ */
+
 @RestController
-public class Controller {
+public class FizzBuzzRestController {
 
     @Autowired
     private FizzBuzzService service;

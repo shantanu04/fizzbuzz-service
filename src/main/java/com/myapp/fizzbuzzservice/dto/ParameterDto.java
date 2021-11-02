@@ -4,6 +4,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+/**
+ * @author shantanuk
+ * <p>
+ * DTO for service parameters
+ */
 @Entity
 public class ParameterDto {
 

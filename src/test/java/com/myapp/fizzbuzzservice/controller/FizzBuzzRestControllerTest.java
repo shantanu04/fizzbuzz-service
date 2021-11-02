@@ -13,14 +13,19 @@ import org.springframework.http.ResponseEntity;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
+/**
+ * @author shantanuk
+ * <p>
+ * Test class for {@link FizzBuzzRestController}
+ */
 @ExtendWith(MockitoExtension.class)
-class ControllerTest {
+class FizzBuzzRestControllerTest {
 
     @Mock
     private FizzBuzzService fizzBuzzServiceMock;
 
     @InjectMocks
-    private Controller controller;
+    private FizzBuzzRestController controller;
 
     @Test
     void shouldCreateFizzBuzzPattern() {
